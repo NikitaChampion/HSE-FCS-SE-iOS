@@ -1,0 +1,6 @@
+framework module Pods_CommitsApp {
+  umbrella header "Pods-CommitsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
