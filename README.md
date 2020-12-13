@@ -4,3 +4,4 @@
 
  - [CommitsApp](./CommitsApp)
  - [SocialApp](./SocialApp)
+ - [StocksApp](./Stocks)
