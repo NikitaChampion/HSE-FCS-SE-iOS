@@ -1,6 +1,5 @@
 # TripCard
-
-![](./Documentation/screen0.png)
-![](./Documentation/screen1.png)
-![](./Documentation/screen2.png)
-![](./Documentation/screen3.png)
+<img src="https://github.com/NikitaChampion/HSE-FCS-SE-iOS/blob/main/TripCard/Documentation/screen0.png" width="350">
+<img src="https://github.com/NikitaChampion/HSE-FCS-SE-iOS/blob/main/TripCard/Documentation/screen1.png" width="350">
+<img src="https://github.com/NikitaChampion/HSE-FCS-SE-iOS/blob/main/TripCard/Documentation/screen2.png" width="350">
+<img src="https://github.com/NikitaChampion/HSE-FCS-SE-iOS/blob/main/TripCard/Documentation/screen3.png" width="350">
