@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FancyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DF-kH-FkH" customClass="FancyButton" customModule="FancyApp" customModuleProvider="target">
+                                <rect key="frame" x="67" y="94" width="280" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="9rP-5B-47z"/>
+                                    <constraint firstAttribute="height" constant="50" id="qtJ-aB-DeH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                <state key="normal" title="Sign in">
+                                    <color key="titleColor" red="0.60539138319999997" green="0.1104779318" blue="0.1215339825" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.60539138319999997" green="0.1104779318" blue="0.1215339825" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLeftPadding">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MsD-Ml-UKG" customClass="FancyButton" customModule="FancyApp" customModuleProvider="target">
+                                <rect key="frame" x="67" y="234" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.24518093469999999" green="0.32786437870000001" blue="0.5804191232" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="905-lo-nYk"/>
+                                    <constraint firstAttribute="height" constant="50" id="TM7-f5-fOv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Sign in with Facebook" image="facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageLeftPadding">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLeftPadding">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="444-mE-ock" customClass="FancyButton" customModule="FancyApp" customModuleProvider="target">
+                                <rect key="frame" x="67" y="374" width="280" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="gls-VY-wdq"/>
+                                    <constraint firstAttribute="height" constant="50" id="oIU-vP-CsB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="26"/>
+                                <state key="normal" title="Sign in">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageLeftPadding">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLeftPadding">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="gradientColor1">
+                                        <color key="value" red="0.58823529409999997" green="0.73333333329999995" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="gradientColor2">
+                                        <color key="value" systemColor="systemGreenColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="enableGradientBackground" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtP-MG-k8P" customClass="FancyButton" customModule="FancyApp" customModuleProvider="target">
+                                <rect key="frame" x="67" y="304" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.18823529411764706" green="0.20000000000000001" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AZ3-74-hXL"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="f6E-UN-bvW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Sign in with GitHub" image="github">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="enableImageRightAligned" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLeftPadding">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageRightPadding">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aGE-97-6kr">
+                                <rect key="frame" x="67" y="164" width="220" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucU-Rh-T6M" customClass="FancyButton" customModule="FancyApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="210" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="SOx-GQ-EKO"/>
+                                            <constraint firstAttribute="width" constant="210" id="eaK-vk-7TS"/>
+                                        </constraints>
+                                        <state key="normal" image="facebook-1"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" systemColor="systemGrayColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqM-eZ-HQt" customClass="FancyButton" customModule="FancyApp" customModuleProvider="target">
+                                        <rect key="frame" x="230" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="c14-Rf-f5w"/>
+                                            <constraint firstAttribute="width" constant="50" id="gby-HM-Fb1"/>
+                                        </constraints>
+                                        <state key="normal" image="facebook-1"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" systemColor="systemGrayColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5R4-Y6-TZ6"/>
+                                    <constraint firstItem="cqM-eZ-HQt" firstAttribute="leading" secondItem="ucU-Rh-T6M" secondAttribute="trailing" constant="20" id="JqB-UB-UPA"/>
+                                    <constraint firstItem="ucU-Rh-T6M" firstAttribute="leading" secondItem="aGE-97-6kr" secondAttribute="leading" id="MZE-X2-ED0"/>
+                                    <constraint firstItem="ucU-Rh-T6M" firstAttribute="top" secondItem="aGE-97-6kr" secondAttribute="top" id="MbG-iY-E8a"/>
+                                    <constraint firstItem="cqM-eZ-HQt" firstAttribute="top" secondItem="aGE-97-6kr" secondAttribute="top" id="ceN-1a-uSK"/>
+                                    <constraint firstAttribute="width" constant="220" id="n9f-Gg-nAk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MtP-MG-k8P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1o5-pl-xW1"/>
+                            <constraint firstItem="aGE-97-6kr" firstAttribute="leading" secondItem="1DF-kH-FkH" secondAttribute="leading" id="Fue-Dk-dvY"/>
+                            <constraint firstItem="1DF-kH-FkH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="LzO-w3-hd1"/>
+                            <constraint firstItem="aGE-97-6kr" firstAttribute="top" secondItem="1DF-kH-FkH" secondAttribute="bottom" constant="20" id="Nh1-p1-JTA"/>
+                            <constraint firstItem="MsD-Ml-UKG" firstAttribute="top" secondItem="aGE-97-6kr" secondAttribute="bottom" constant="20" id="OSZ-1d-ag4"/>
+                            <constraint firstItem="444-mE-ock" firstAttribute="top" secondItem="MtP-MG-k8P" secondAttribute="bottom" constant="20" id="TMt-8B-IdU"/>
+                            <constraint firstItem="MsD-Ml-UKG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uyk-Ma-674"/>
+                            <constraint firstItem="1DF-kH-FkH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dfN-t2-SlJ"/>
+                            <constraint firstItem="MtP-MG-k8P" firstAttribute="top" secondItem="MsD-Ml-UKG" secondAttribute="bottom" constant="20" id="jXU-cA-of0"/>
+                            <constraint firstItem="444-mE-ock" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="smK-Bd-omq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-215.94202898550725" y="73.660714285714278"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="1DF-kH-FkH">
+            <size key="intrinsicContentSize" width="81" height="48"/>
+        </designable>
+        <designable name="444-mE-ock">
+            <size key="intrinsicContentSize" width="81" height="48"/>
+        </designable>
+        <designable name="MsD-Ml-UKG">
+            <size key="intrinsicContentSize" width="221" height="28"/>
+        </designable>
+        <designable name="MtP-MG-k8P">
+            <size key="intrinsicContentSize" width="197" height="28"/>
+        </designable>
+        <designable name="cqM-eZ-HQt">
+            <size key="intrinsicContentSize" width="21" height="22"/>
+        </designable>
+        <designable name="ucU-Rh-T6M">
+            <size key="intrinsicContentSize" width="21" height="22"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="facebook" width="21" height="21"/>
+        <image name="facebook-1" width="21" height="21"/>
+        <image name="github" width="21" height="21"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
