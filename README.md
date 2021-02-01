@@ -5,3 +5,6 @@
  - [CommitsApp](./CommitsApp)
  - [SocialApp](./SocialApp)
  - [StocksApp](./Stocks)
+ - [TripCard](./TripCard)
+ - [BlurApp](./BlurApp)
+ - [FancyApp](./FancyApp)
