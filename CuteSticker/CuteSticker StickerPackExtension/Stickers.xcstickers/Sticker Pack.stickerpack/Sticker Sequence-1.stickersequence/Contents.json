@@ -1,0 +1,49 @@
+{
+  "frames" : [
+    {
+      "filename" : "baby-01.png"
+    },
+    {
+      "filename" : "baby-02.png"
+    },
+    {
+      "filename" : "baby-03.png"
+    },
+    {
+      "filename" : "baby-04.png"
+    },
+    {
+      "filename" : "baby-05.png"
+    },
+    {
+      "filename" : "baby-06.png"
+    },
+    {
+      "filename" : "baby-07.png"
+    },
+    {
+      "filename" : "baby-08.png"
+    },
+    {
+      "filename" : "baby-09.png"
+    },
+    {
+      "filename" : "baby-10.png"
+    },
+    {
+      "filename" : "baby-11.png"
+    },
+    {
+      "filename" : "baby-12.png"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "duration" : 15,
+    "duration-type" : "fps",
+    "repetitions" : 0
+  }
+}
