@@ -8,3 +8,5 @@
  - [TripCard](./TripCard)
  - [BlurApp](./BlurApp)
  - [FancyApp](./FancyApp)
+
+- [TodoApp](./Todoey)
